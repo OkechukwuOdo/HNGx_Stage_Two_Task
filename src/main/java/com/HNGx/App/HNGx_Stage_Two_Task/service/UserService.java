@@ -9,5 +9,5 @@ public interface UserService {
     UserResponseDTO createUser(UserRequestDTO userDTO);
     String deleteUser(Long user_id);
     UserResponseDTO fetchUser(Long user_id);
-    UserRequestDTO updateUser(Long user_id, UserRequestDTO userDTO);
+    UserResponseDTO updateUser(Long user_id, UserRequestDTO userDTO);
 }
