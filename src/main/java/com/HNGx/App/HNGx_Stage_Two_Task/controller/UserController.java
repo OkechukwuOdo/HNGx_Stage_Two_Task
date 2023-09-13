@@ -1,6 +1,5 @@
 package com.HNGx.App.HNGx_Stage_Two_Task.controller;
 
-import com.HNGx.App.HNGx_Stage_Two_Task.entity.User;
 import com.HNGx.App.HNGx_Stage_Two_Task.model.UserRequestDTO;
 import com.HNGx.App.HNGx_Stage_Two_Task.model.UserResponseDTO;
 import com.HNGx.App.HNGx_Stage_Two_Task.service.UserService;
