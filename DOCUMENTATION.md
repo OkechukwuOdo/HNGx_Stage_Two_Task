@@ -52,7 +52,8 @@ Response:
 "User by name <Name of user> has been deleted from database"
 
 ## Update a user with the user_id
-* Update the user detail with to a provided user.
+* Update the user detail to a provided user detail.
+* 
 URL: /api/user_id
 
 Method: PUT
