@@ -23,6 +23,7 @@ public class UserServiceImplementation implements UserService{
 
     private UserResponseDTO mapUserToUserResponse(Client user) {
         return UserResponseDTO.builder()
+                .id(user.getId())
                 .name(user.getName())
                 .phone_number(user.getPhone_number())
                 .gender(user.getGender())
