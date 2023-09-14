@@ -65,3 +65,4 @@ Response (HTTP Status Code 200: ok)
 "name": "Jane Anu"
 }
 
+UML Diagram:  https://github.com/OkechukwuOdo/HNGx_Stage_Two_Task/blob/main/HNGx_Stage_Two_Task_UML.png
