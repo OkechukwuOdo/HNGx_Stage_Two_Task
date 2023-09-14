@@ -9,15 +9,12 @@ RequestBody:
 
 {
 "name": "Mike Okonkwo"
- "gender": "male"
- "phone_number": "+2347073595060"
 }
 Response (HTTP Status Code 200: ok)
 
 {
+"id": 1
 "name": "Mike Okonkwo"
-"gender": "male"
-"phone_number": "+2347073595060"
 }
 
 
@@ -32,9 +29,8 @@ RequestBody: No request body is required for this endpoint.
 
 Response:
 {
-"name":"Mike Okonkwo"
-"gender":"male"
-"phone_number":"+2347073595060"
+"id": 1
+"name": "Mike Okonkwo"
 }
 
 ## Delete User with id
@@ -60,15 +56,12 @@ Method: PUT
 RequestBody:
 
 {
-"name": "Mercy Agu"
-"gender": "female"
-"phone_number": "+2347073595060"
+"name": "Janu Anu"
 }
 
 Response (HTTP Status Code 200: ok)
 {
-"name": "Mercy Agu"
-"gender": "female"
-"phone_number": "+2347073595060"
+"id": 1
+"name": "Jane Anu"
 }
 
