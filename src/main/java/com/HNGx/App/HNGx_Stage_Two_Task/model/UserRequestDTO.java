@@ -11,6 +11,4 @@ import lombok.NoArgsConstructor;
 @Builder
 public class UserRequestDTO {
     private String name;
-    private String phone_number;
-    private String gender;
 }

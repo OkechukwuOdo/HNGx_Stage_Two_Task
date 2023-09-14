@@ -25,16 +25,12 @@ public class UserServiceImplementation implements UserService{
         return UserResponseDTO.builder()
                 .id(user.getId())
                 .name(user.getName())
-                .phone_number(user.getPhone_number())
-                .gender(user.getGender())
                 .build();
     }
 
     private Client mapUserRequestTOuser(UserRequestDTO userDTO) {
         return Client.builder()
                 .name(userDTO.getName())
-                .phone_number(userDTO.getPhone_number())
-                .gender(userDTO.getGender())
                 .build();
     }
 
@@ -55,8 +51,6 @@ public class UserServiceImplementation implements UserService{
     public UserResponseDTO updateUser(Long user_id, UserRequestDTO userDTO) {
         Client user= userRepo.findById(user_id).orElseThrow(()->new RuntimeException("User does not exist"));
         user.setName(userDTO.getName());
-        user.setGender(userDTO.getGender());
-        user.setPhone_number(userDTO.getPhone_number());
         Client savedUser= userRepo.save(user);
         return mapUserToUserResponse(savedUser);
     }

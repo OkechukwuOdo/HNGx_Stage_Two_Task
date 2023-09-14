@@ -1,11 +1,11 @@
 ## Create Person
 * Description: Create a new person entry.
 
-URL: /api
+URL: https://hngx-stage-two-task-app.onrender.com/api
 
 Method: POST
 
-Request:
+RequestBody:
 
 {
 "name": "Mike Okonkwo"
@@ -22,13 +22,13 @@ Response (HTTP Status Code 200: ok)
 
 
 ## Get a Person By Name
-* Description: Retrieve details of a person by name.
+* Description: Retrieve details of a person by id.
 
-URL: /api/user_id
+URL: https://hngx-stage-two-task-app.onrender.com/api/user_id
 
 Method: GET
 
-Request: No request body is required for this endpoint.
+RequestBody: No request body is required for this endpoint.
 
 Response:
 {
@@ -40,11 +40,11 @@ Response:
 ## Delete User with id
 * Description: Delete user with certain id.
 
-URL: /api/user_id
+URL: https://hngx-stage-two-task-app.onrender.com/api/user_id
 
 Method: DELETE
 
-Request: No request body is required for this endpoint.
+RequestBody: No request body is required for this endpoint.
 
 Response:
 
@@ -53,11 +53,11 @@ Response:
 ## Update a user with the user_id
 * Description: Update the user detail to a provided user detail.
 
-URL: /api/user_id
+URL: https://hngx-stage-two-task-app.onrender.com/api/user_id
 
 Method: PUT
 
-Request:
+RequestBody:
 
 {
 "name": "Mercy Agu"

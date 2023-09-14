@@ -11,12 +11,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 @Builder
-//@Table(name = "_user")
+@Table(name = "_user")
 public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Long id;
     private String name;
-    private String phone_number;
-    private String gender;
 }
